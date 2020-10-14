@@ -3,8 +3,8 @@ package ru.vsu.cs.shashmashki;
 public class Game {
 
     //Field field;
-    Manager manager;
-    IPlayer win;
+    private Manager manager;
+    private IPlayer win;
 
     public void gameStart(){
         //field = new Field();

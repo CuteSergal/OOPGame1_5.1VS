@@ -7,10 +7,10 @@ public class Manager {
     //private ArrayList<Checker> =
     //{Checker.allCheckers.get(0);}
 
-    Field field;
-    IPlayer player1;
-    IPlayer player2;
-    IPlayer currentPlayer;
+    private Field field;
+    private IPlayer player1;
+    private IPlayer player2;
+    private IPlayer currentPlayer;
 
     public Manager(boolean bulka1, boolean boolka2) {
         this.field = new Field();
